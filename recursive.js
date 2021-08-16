@@ -1,3 +1,5 @@
+//재귀함수
+
 const solution = (n) => {
   let answer = '';
   const DFS = (L) => {
@@ -11,4 +13,4 @@ const solution = (n) => {
   return answer;
 }
 
-console.log(solution(3));
+console.log(solution(3)); //123

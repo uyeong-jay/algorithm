@@ -1,3 +1,5 @@
+//선택정렬
+
 const array = [13, 5, 11, 7, 23, 15];
 
 const solution = (arr) => {
@@ -14,8 +16,7 @@ const solution = (arr) => {
 
     [arr[i], arr[idx]] = [arr[idx], arr[i]]; 
     // 교체(정렬)됨
-    // 두번째 for문에서 idx에 j를 넣어줬기때문에 
-    // 두번째 for문 안에서 교체 해주지 않고
+    // 두번째 for문에서 idx에 j를 넣어줬기때문에 두번째 for문 안에서 교체 해주지 않고
     // 이렇게 두번째 for문이 끝난후 교체를 해 교체되는 횟수를 줄인다.
     
   }

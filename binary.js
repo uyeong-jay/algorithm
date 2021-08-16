@@ -1,3 +1,5 @@
+//이진수 재귀함수로 출력해보기
+
 const solution = (n) => {
   let answer = '';
 
@@ -5,10 +7,10 @@ const solution = (n) => {
     if(L === 0) return;
     else {
       DFS(parseInt(L/2));
-      answer += L%2
+      answer += L%2;
     }
   }
-  DFS(n)
+  DFS(n);
 
   return answer;
 }

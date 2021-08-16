@@ -17,7 +17,7 @@ const solution = (meeting) => {
     else return a[1] - b[1];
   })
   
-  //비교를 해야될때에는 변수가 하나 있어야됨
+  //비교를 해야될때에는 변수 하나 만들어주기
   endTime = 0;
   for (x of meeting) {
     if (endTime <= x[0]  ) {
