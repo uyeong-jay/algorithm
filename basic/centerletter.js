@@ -24,5 +24,5 @@ function solution(str) {
 console.log(solution(string));
 
 //tip
-// 하나씩 탐색해야될 필요가 있을때 for문 쓰기
-// 바로 원하는 부분이 필요하면 for문 생략후 if쓰기
+// 하나씩 탐색해야될 필요가 있을때 for문 활용
+// 바로 원하는 부분이 필요할때는 if문 활용
