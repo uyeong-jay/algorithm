@@ -15,7 +15,7 @@ function solution(str) {
   /* 두번째 방법 */
   // for (const x of str) {
   //   if (answer.indexOf(x) === -1) {
-  //  // -1 이 for of의 한계를 없애줌 (for of는 값에 접근하는 애라서 인덱스로 문제 풀때는 방해가 되기떄문)
+  //  // for of는 요소에 접근하는 애라서 인덱스로 문제 풀때는 방해가 되는데 -1로 이 for of의 한계를 없애준다.
   //     answer += x;
   //   }
   // }
