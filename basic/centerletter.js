@@ -21,7 +21,7 @@ function solution(str) {
   return answer;
 }
 
-console.log(solution(string));
+console.log(solution(string)); //pu
 
 //tip
 // 하나씩 탐색해야될 필요가 있을때 for문 활용
