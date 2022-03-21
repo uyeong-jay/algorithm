@@ -8,12 +8,13 @@ function solution(str) {
   if (str.length % 2 === 1) {
     //문자가 홀수일 경우
 
-    // 잘라내기
+    //가운데 1문자 잘라내기
     answer = str.substr(midString, 1);
     // answer = str.substring(midString, midString + 1);
   } else {
     //문자가 짝수일 경우
 
+    //가운데 2문자 잘라내기
     answer = str.substr(midString - 1, 2);
     // answer = str.substring(midString - 1, midString + 1);
   }
