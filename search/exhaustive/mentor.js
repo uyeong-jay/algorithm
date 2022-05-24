@@ -17,8 +17,8 @@ const solution = (arr) => {
   for (let i = 1; i <= n; i++) {
     //j: 멘티학생번호(가로)
     for (let j = 1; j <= n; j++) {
-      let cnt = 0; 
       // 1번의 테스트에서 멘토 등수 < 멘티 등수 인 경우 수
+      let cnt = 0;
 
       // k: 테스트수(세로)
       for (let k = 0; k < m; k++) {
@@ -31,12 +31,12 @@ const solution = (arr) => {
           if (arr[k][s] === j) pj = s; //배열의 요소(arr[k][s])가 멘티학생의 번호(j) 이면 그때의 등수(s)가 멘티학생의 등수(pj) 가 되도록함
         }
 
-        if (pi < pj) cnt++; 
+        if (pi < pj) cnt++;
         // 등수는 작을 수록 높기 때문에 부등호는 반대로 해줌
-        // 1번의 테스트에서 멘토 등수 < 멘티 등수 경우 >> cnt++
+        // 1번의 테스트에서 멘토 등수 < 멘티 등수 일 경우 >> cnt++
       }
 
-      if (cnt === m) answer++; // 테스트 3번 모두 시 멘티보다 멘토 등수가 높을 경우 >> 멘토,멘티 짝 성사 >> answer++;
+      if (cnt === m) answer++; // 테스트 3번(arr.length) 모두 멘토 등수 < 멘티 등수 일 경우 >> 멘토,멘티 짝 성사 >> answer++;
     }
   }
 
