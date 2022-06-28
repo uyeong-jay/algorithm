@@ -1,4 +1,4 @@
-//Two Pointers
+//Two Pointers 활용
 //효율성을 위해 이중반복문 대신 two-pointers 로 해결하기
 //연속된 부분 배열의 합이 특정숫자 m이 되는 경우의 수 구하기
 const array = [1, 2, 1, 3, 1, 1, 1, 2];

@@ -1,4 +1,4 @@
-//Sliding Window
+//Sliding Window 활용
 //연속된 K일 동안의 최대 매출액 구하기
 const array = [12, 15, 11, 20, 25, 10, 20, 19, 13, 15];
 

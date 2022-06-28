@@ -1,4 +1,4 @@
-//Two Pinters 알고리즘
+//Two Pointers 활용
 //효율성을 위해 sort() 대신 two-pointers 로 해결하기
 //두 오름차순 배열을 합쳐 오름차순으로 출력하기
 
